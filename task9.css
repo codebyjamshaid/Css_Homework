@@ -1,0 +1,41 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header,
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6971be; /* Default background color */
+    color: white;
+}
+
+.site-content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media query for screen width 768px and below */
+@media (max-width: 768px) {
+    .site-header {
+        background-color: #f0b967; /* Change to orange */
+    }
+
+    .site-footer {
+        background-color: #FF9800; /* Change to orange */
+    }
+}
+
+/* Media query for screen width 1024px and below */
+@media (max-width: 1024px) {
+    .site-header {
+        background-color: #3d6688; /* Change to blue */
+    }
+
+    .site-footer {
+        background-color: #3dbe6f; /* Change to blue */
+    }
+}

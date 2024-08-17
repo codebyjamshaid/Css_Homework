@@ -1,0 +1,29 @@
+/* CSS for Flexbox Equal-Width Boxes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Flex container styling */
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Evenly space the boxes with a gap between them */
+    width: 80%; /* Container width relative to viewport */
+    gap: 20px; /* Gap between the boxes */
+}
+
+/* Box styling */
+.box {
+    flex: 1; /* Each box takes up equal space */
+    background-color: #1b4869;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}

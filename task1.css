@@ -1,0 +1,30 @@
+/* CSS for Static Positioning */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    position: static; /* This is the default value, so it can be omitted */
+    padding: 30px;
+    border: 5px solid #121317;
+}
+
+/* Additional styling for visual clarity */
+header {
+    background-color: #2b646f;
+    color: white;
+    text-align: center;
+}
+
+main {
+    min-height: 300px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #46dd8f;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+/* CSS for Vertical Centering with Flexbox */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    background-color: #eca0a0;
+}
+
+/* Flex container styling */
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Arrange the boxes in a vertical column */
+    justify-content: center; /* Center the boxes vertically within the container */
+    align-items: center; /* Center the boxes horizontally within the container */
+    width: 200px; /* Width of the container */
+    height: 300px; /* Height of the container */
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Box styling */
+.box {
+    background-color: #6c4040;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px; /* Space between the boxes */
+    text-align: center;
+    width: 100%; /* Make the boxes take up the full width of the container */
+    border-radius: 5px;
+}
+
+.box:last-child {
+    margin-bottom: 0; /* Remove the margin from the last box */
+}

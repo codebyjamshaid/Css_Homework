@@ -1,0 +1,29 @@
+/* CSS for Relative Positioning */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    width: 300px;
+    height: 300px;
+    background-color: #f1f1f1;
+    border: 2px solid #ccc;
+    position: relative; /* Position the container relatively (optional) */
+    margin: 50px auto; /* Center the container on the page */
+}
+
+/* Box styling */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #dada4a;
+    position: relative; /* Set the position to relative */
+    top: 20px; /* Shift the box 20px down */
+    left: 30px; /* Shift the box 30px to the right */
+    color: white;
+    text-align: center;
+    line-height: 100px; /* Center the text vertically */
+}

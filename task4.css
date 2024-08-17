@@ -1,0 +1,51 @@
+/* CSS for Fixed Positioning */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fixed Navigation Bar Styling */
+.navbar {
+    position: fixed; /* Fix the navigation bar to the top of the viewport */
+    top: 0;
+    width: 100%;
+    background-color: #2b4c67;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Content Styling */
+.content {
+    margin-top: 60px; /* Offset the content from the fixed navbar height */
+    padding: 20px;
+}
+
+section {
+    padding: 50px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,30 @@
+/* CSS for 2x2 Grid Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Grid container styling */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 2 columns with equal width */
+    grid-template-rows: repeat(2, 1fr);    /* Create 2 rows with equal height */
+    gap: 20px; /* Space between the grid items */
+    width: 80%; /* Container width relative to viewport */
+    max-width: 500px; /* Max width for the grid container */
+}
+
+/* Grid item styling */
+.grid-item {
+    background-color: #c0dd75;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}

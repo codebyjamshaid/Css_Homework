@@ -1,0 +1,29 @@
+/* CSS for Absolute Positioning */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    width: 300px;
+    height: 300px;
+    background-color: #f1f1f1;
+    border: 2px solid #ccc;
+    position: relative; /* Set the container's position to relative */
+    margin: 50px auto; /* Center the container on the page */
+}
+
+/* Box styling */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #13a498;
+    position: absolute; /* Set the position to absolute */
+    bottom: 0; /* Align the box to the bottom of the container */
+    right: 0; /* Align the box to the right side of the container */
+    color: white;
+    text-align: center;
+    line-height: 100px; /* Center the text vertically */
+}
